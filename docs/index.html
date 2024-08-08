@@ -36,6 +36,12 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+  <style>
+    img {
+      width: 80px;
+      height: 70px;
+    }
+  </style>
 </head>
 <body>
 
@@ -75,13 +81,35 @@
             <ul id="menu-flters">
               <li data-filter="*" class="filter-active">Todo</li>
               <li data-filter=".filter-asados">Asados</li>
-              <li data-filter=".filter-bebidas">Bebidas</li>
+              <li data-filter=".filter-parrilladas">Parrilladas</li>
               <li data-filter=".filter-guarniciones">Guarniciones</li>
+              <li data-filter=".filter-bebidas">Bebidas</li>
             </ul>
           </div>
         </div>
 
         <div class="row menu-container" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="col-lg-6 menu-item filter-parrilladas">
+                <img src="assets/img/own-menu/parrillada.jpeg" class="menu-img" alt="">
+                <div class="menu-content">
+                    <a href="#">Parrillada mediana (2 personas)</a><span>$15,00</span>
+                </div>
+                <div class="menu-ingredients">
+                    Pollo, chuleta, lomo, chorizo + ensalada + 1 guarnición
+                </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-parrilladas">
+                <img src="assets/img/own-menu/parrillada.jpeg" class="menu-img" alt="">
+                <div class="menu-content">
+                  <a href="#">Parrillada grande (4 personas)</a><span>$25,00</span>
+                </div>
+                <div class="menu-ingredients">
+                    Pollo, chuleta, lomo, chorizo + ensalada + 2 guarnición
+                </div>
+            </div>
+
+
           <div class="col-lg-6 menu-item filter-asados">
             <img src="assets/img/own-menu/borrego.jpeg" class="menu-img" alt="">
             <div class="menu-content">
@@ -90,7 +118,7 @@
             <div class="menu-ingredients">Arroz (blanco o moro), menestra, ensalada, patacones.</div>
           </div>
           <div class="col-lg-6 menu-item filter-asados">
-            <img src="assets/img/own-menu/borrego.jpeg" class="menu-img" alt="">
+            <img src="assets/img/own-menu/costilla.jpg" class="menu-img" alt="">
             <div class="menu-content">
               <a href="#">Costillas de cerdo (normal o en salsa BBQ)</a><span>$5,50</span>
             </div>
@@ -99,12 +127,12 @@
           <div class="col-lg-6 menu-item filter-asados">
             <img src="assets/img/own-menu/borrego.jpeg" class="menu-img" alt="">
             <div class="menu-content">
-              <a href="#">Lomo de asado</a><span>$5,00</span>
+              <a href="#">Lomo fino</a><span>$5,00</span>
             </div>
             <div class="menu-ingredients">Arroz (blanco o moro), menestra, ensalada, patacones.</div>
           </div>
           <div class="col-lg-6 menu-item filter-asados">
-            <img src="assets/img/own-menu/borrego.jpeg" class="menu-img" alt="">
+            <img src="assets/img/own-menu/chuleta-res.jpg" class="menu-img" alt="">
             <div class="menu-content">
               <a href="#">Chuleta de res</a><span>$4,00</span>
             </div>
@@ -118,21 +146,21 @@
             <div class="menu-ingredients">Arroz (blanco o moro), menestra, ensalada, patacones.</div>
           </div>
           <div class="col-lg-6 menu-item filter-asados">
-            <img src="assets/img/own-menu/borrego.jpeg" class="menu-img" alt="">
+            <img src="assets/img/own-menu/chuleta-pollo.png" class="menu-img" alt="">
             <div class="menu-content">
               <a href="#">Chuleta de pollo</a><span>$3,50</span>
             </div>
             <div class="menu-ingredients">Arroz (blanco o moro), menestra, ensalada, patacones.</div>
           </div>
           <div class="col-lg-6 menu-item filter-asados">
-            <img src="assets/img/own-menu/borrego.jpeg" class="menu-img" alt="">
+            <img src="assets/img/own-menu/tilapia.jpg" class="menu-img" alt="">
             <div class="menu-content">
               <a href="#">Tilapia roja (mediana) </a><span>$6,00</span>
             </div>
             <div class="menu-ingredients">Arroz (blanco o moro), menestra, ensalada, patacones.</div>
           </div>
           <div class="col-lg-6 menu-item filter-asados">
-            <img src="assets/img/own-menu/borrego.jpeg" class="menu-img" alt="">
+            <img src="assets/img/own-menu/tilapia.jpg" class="menu-img" alt="">
             <div class="menu-content">
               <a href="#">Tilapia roja (grande) </a><span>$8,00</span>
             </div>
@@ -181,6 +209,13 @@
             </div>
             <div class="menu-ingredients">...</div>
           </div>
+          <div class="col-lg-6 menu-item filter-bebidas">
+            <img src="assets/img/own-menu/colalata.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Coca cola (lata)</a><span>$1,30</span>
+            </div>
+            <div class="menu-ingredients">...</div>
+          </div>
           <!-- bebidas alcoholicas -->
           <div class="col-lg-6 menu-item filter-bebidas">
             <img src="assets/img/own-menu/corona.jpg" class="menu-img" alt="Corona">
@@ -225,13 +260,13 @@
             </div>
             <div class="menu-ingredients">....</div>
           </div>
-          <div class="col-lg-6 menu-item filter-guarniciones">
-            <img src="assets/img/own-menu/chicharron.jpg" class="menu-img" alt="">
-            <div class="menu-content">
-              <a href="#">Chicharrón</a><span>$1,50</span>
-            </div>
-            <div class="menu-ingredients">....</div>
-          </div>
+<!--          <div class="col-lg-6 menu-item filter-guarniciones">-->
+<!--            <img src="assets/img/own-menu/chicharron.jpg" class="menu-img" alt="">-->
+<!--            <div class="menu-content">-->
+<!--              <a href="#">Chicharrón</a><span>$1,50</span>-->
+<!--            </div>-->
+<!--            <div class="menu-ingredients">....</div>-->
+<!--          </div>-->
 
 
         </div>
